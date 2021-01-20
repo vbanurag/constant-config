@@ -1,13 +1,13 @@
 {
-	"name": "unicorn-fun",
-	"version": "0.0.0",
-	"description": "My awesome module",
+	"name": "constant-config",
+	"version": "0.0.1",
+	"description": "Managing the constants in web and mobile dev",
 	"license": "MIT",
-	"repository": "YOUR-GITHUB-USERNAME/unicorn-fun",
+	"repository": "vbanurag/constant-config",
 	"author": {
-		"name": "YOUR NAME",
-		"email": "YOUR EMAIL",
-		"url": "YOUR WEBSITE"
+		"name": "anurag sharma",
+		"email": "vbanurag.sharma@gmail.com",
+		"url": "http://anurag.sharma.me"
 	},
 	"type": "module",
 	"exports": "./index.js",

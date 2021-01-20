@@ -1,9 +1,10 @@
-const unicornFun = (input, {postfix = 'rainbows'} = {}) => {
-	if (typeof input !== 'string') {
-		throw new TypeError(`Expected a string, got ${typeof input}`);
-	}
+import {ALERT_MESSAGES} from './src/alertMessages';
+import {MSG_CONSTANT} from './src/constants';
 
-	return `${input} & ${postfix}`;
+
+export const ALERT = ALERT_MESSAGES;
+export const CONSTANT = MSG_CONSTANT;
+export default {
+	ALERT: ALERT_MESSAGES,
+	CONSTANT: MSG_CONSTANT
 };
-
-export default unicornFun;
