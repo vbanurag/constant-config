@@ -10,7 +10,7 @@
 		"url": "http://anurag.sharma.me"
 	},
 	"type": "module",
-	"exports": "./index.js",
+	"exports": "./",
 	"engines": {
 		"node": ">=12"
 	},
